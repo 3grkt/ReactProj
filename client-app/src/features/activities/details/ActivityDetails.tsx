@@ -4,10 +4,10 @@ import ActivityStore from "../../../app/stores/activityStore";
 import { observer } from "mobx-react-lite";
 import { RouteComponentProps } from "react-router";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
-import { ActivityDetailedHeader } from "./ActivityDetailedHeader";
 import { ActivityDetailedInfo } from "./ActivityDetailedInfo";
 import { ActivityDetailedChat } from "./ActivityDetailedChat";
 import { ActivityDetailedSidebar } from "./ActivityDetailedSidebar";
+import ActivityDetailedHeader from "./ActivityDetailedHeader";
 
 interface DetailParams {
   id: string;
